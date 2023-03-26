@@ -36,7 +36,7 @@ namespace BN880_HMC{
 
     //% blockId=getLatitudeLongitude
     //% block="get latitude and longitude as string"
-    export function getGPSLL() : String {
+    export function getGPSLL() : string {
         latlong2 = serial.readLine()
         if (latlong2) {
             values2 = latlong2.split(",")
