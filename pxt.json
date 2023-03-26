@@ -1,5 +1,6 @@
 {
     "name": "GPS_COMPASS_F",
+    "version": "0.0.1",
     "description": "",
     "dependencies": {
         "core": "*",
